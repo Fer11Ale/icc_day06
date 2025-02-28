@@ -6,5 +6,5 @@ feet = int(input("How many feet tall are you? "))
 # 1 inch = 0.0254 meters
 inches = int(input("... and how many inches? "))
 # note: the conversion rates are "HARD-CODED"
-meters = (feet * 0.3048) + (inches * 0.0254)
-print("You are " + str(meters) + " meters tall.")
+meters = str((feet * 0.3048) + (inches * 0.0254))
+print("You are " + meters + " meters tall.")
